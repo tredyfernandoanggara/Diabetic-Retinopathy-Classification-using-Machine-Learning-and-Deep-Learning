@@ -1,0 +1,337 @@
+{
+    "dataset_1_SVM": {
+        "data": {
+            "y_true": [
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            "y_pred": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            "confusion_matrix": [
+                [
+                    3,
+                    1
+                ],
+                [
+                    0,
+                    4
+                ]
+            ],
+            "class_names": [
+                0,
+                1
+            ]
+        },
+        "metrics": {
+            "Accuracy": 0.875,
+            "Recall": 1.0,
+            "Specificity": 0.75,
+            "Precision": 0.8,
+            "F1-Score": 0.8888888888888888,
+            "AUC": 0.9375
+        },
+        "resources": {
+            "computational_time_sec": 0.0024599000007583527,
+            "memory_footprint_MB": 0.002979278564453125,
+            "memory_peak_MB": 0.006726264953613281,
+            "model_size_MB": 0.003879547119140625
+        },
+        "stability": {
+            "noise_levels": [
+                0.01,
+                0.03,
+                0.05
+            ],
+            "scores": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "stability_index": 1.0,
+            "metric_used": "Accuracy"
+        },
+        "history_train": null
+    },
+    "dataset_1_KNN": {
+        "data": {
+            "y_true": [
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            "y_pred": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            "confusion_matrix": [
+                [
+                    3,
+                    1
+                ],
+                [
+                    0,
+                    4
+                ]
+            ],
+            "class_names": [
+                0,
+                1
+            ]
+        },
+        "metrics": {
+            "Accuracy": 0.875,
+            "Recall": 1.0,
+            "Specificity": 0.75,
+            "Precision": 0.8,
+            "F1-Score": 0.8888888888888888,
+            "AUC": 0.9375
+        },
+        "resources": {
+            "computational_time_sec": 0.010604299999613431,
+            "memory_footprint_MB": 0.018004417419433594,
+            "memory_peak_MB": 0.025275230407714844,
+            "model_size_MB": 0.004755973815917969
+        },
+        "stability": {
+            "noise_levels": [
+                0.01,
+                0.03,
+                0.05
+            ],
+            "scores": [
+                0.5,
+                0.5,
+                0.125
+            ],
+            "stability_index": 0.5285954917797552,
+            "metric_used": "Accuracy"
+        },
+        "history_train": null
+    },
+    "dataset_1_RandomForest": {
+        "data": {
+            "y_true": [
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            "y_pred": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            "confusion_matrix": [
+                [
+                    3,
+                    1
+                ],
+                [
+                    0,
+                    4
+                ]
+            ],
+            "class_names": [
+                0,
+                1
+            ]
+        },
+        "metrics": {
+            "Accuracy": 0.875,
+            "Recall": 1.0,
+            "Specificity": 0.75,
+            "Precision": 0.8,
+            "F1-Score": 0.8888888888888888,
+            "AUC": 0.875
+        },
+        "resources": {
+            "computational_time_sec": 0.08189210000091407,
+            "memory_footprint_MB": 0.015214920043945312,
+            "memory_peak_MB": 0.021028518676757812,
+            "model_size_MB": 0.08319664001464844
+        },
+        "stability": {
+            "noise_levels": [
+                0.01,
+                0.03,
+                0.05
+            ],
+            "scores": [
+                0.25,
+                0.5,
+                0.5
+            ],
+            "stability_index": 0.717157294313606,
+            "metric_used": "Accuracy"
+        },
+        "history_train": null
+    },
+    "dataset_1_LogisticRegression": {
+        "data": {
+            "y_true": [
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            "y_pred": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            "confusion_matrix": [
+                [
+                    3,
+                    1
+                ],
+                [
+                    0,
+                    4
+                ]
+            ],
+            "class_names": [
+                0,
+                1
+            ]
+        },
+        "metrics": {
+            "Accuracy": 0.875,
+            "Recall": 1.0,
+            "Specificity": 0.75,
+            "Precision": 0.8,
+            "F1-Score": 0.8888888888888888,
+            "AUC": 1.0
+        },
+        "resources": {
+            "computational_time_sec": 0.00377200000002631,
+            "memory_footprint_MB": 0.0015163421630859375,
+            "memory_peak_MB": 0.0040988922119140625,
+            "model_size_MB": 0.0013294219970703125
+        },
+        "stability": {
+            "noise_levels": [
+                0.01,
+                0.03,
+                0.05
+            ],
+            "scores": [
+                0.5,
+                0.5,
+                0.25
+            ],
+            "stability_index": 0.717157294313606,
+            "metric_used": "Accuracy"
+        },
+        "history_train": null
+    },
+    "dataset_1_MLP": {
+        "data": {
+            "y_true": [
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            "y_pred": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            "confusion_matrix": [
+                [
+                    3,
+                    1
+                ],
+                [
+                    0,
+                    4
+                ]
+            ],
+            "class_names": [
+                0,
+                1
+            ]
+        },
+        "metrics": {
+            "Accuracy": 0.875,
+            "Recall": 1.0,
+            "Specificity": 0.75,
+            "Precision": 0.8,
+            "F1-Score": 0.8888888888888888,
+            "AUC": 1.0
+        },
+        "resources": {
+            "computational_time_sec": 0.0034529000004113186,
+            "memory_footprint_MB": 0.00168609619140625,
+            "memory_peak_MB": 0.01543426513671875,
+            "model_size_MB": 0.049666404724121094
+        },
+        "stability": {
+            "noise_levels": [
+                0.01,
+                0.03,
+                0.05
+            ],
+            "scores": [
+                0.5,
+                0.5,
+                0.375
+            ],
+            "stability_index": 0.8714351334984066,
+            "metric_used": "Accuracy"
+        },
+        "history_train": null
+    }
+}

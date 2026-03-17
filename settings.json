@@ -1,0 +1,51 @@
+{
+    "PATH_FOLDER": {
+        "dataset": "Dataset",
+        "dataset_pre": "Dataset_Preprocessing",
+        "dataset_extract_a": "Dataset_Extract_A",
+        "dataset_extract_b": "Dataset_Extract_B",
+        "dataset_extract_d": "Dataset_Extract_D",
+        "dataset_plot": "Plot_Dataset",
+        "dataset_extract_a_plot": "Plot_Dataset_Extract_A",
+        "dataset_extract_b_plot": "Plot_Dataset_Extract_B",
+        "dataset_extract_d_plot": "Plot_Dataset_Extract_D",
+        "path_model_plot": "Plot_Evaluasi",
+        "path_plot": "Plot",
+        "path_excel": "Excel",
+        "path_model_a": "Model_A",
+        "path_model_b": "Model_B",
+        "path_model_c": "Model_C",
+        "path_model_d": "Model_D"
+    },
+    "PATH_FILE": {
+        "dataset": "Excel\\dataset.xlsx",
+        "dataset_extract_a": "Excel\\dataset_extract_A.xlsx",
+        "dataset_extract_b": "Excel\\dataset_extract_B.xlsx",
+        "dataset_selected_c": "Excel\\dataset_selected_C.xlsx",
+        "dataset_extract_d": "Excel\\dataset_extract_D.xlsx",
+        "dataset_selected_d": "Excel\\dataset_selected_D.xlsx"
+    },
+    "IMAGE_SIZE": [
+        224,
+        224
+    ],
+    "EXTENSIONS": [
+        ".jpg",
+        ".png",
+        ".jpeg"
+    ],
+    "DEFAULT_EXTENSION": ".png",
+    "DEFAULT_EXTENSION_PLOT": ".jpg",
+    "FEATURE_SELECTION": [
+        "LBP_1",
+        "LBP_4",
+        "LBP_16",
+        "LBP_19",
+        "LBP_64",
+        "LBP_79",
+        "LBP_124",
+        "LBP_127",
+        "LBP_199",
+        "LBP_225"
+    ]
+}
