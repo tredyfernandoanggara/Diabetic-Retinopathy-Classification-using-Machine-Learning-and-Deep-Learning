@@ -464,7 +464,7 @@ def graph_based_lbp(image, P=8, R=1, k_thresh=0.5, ent_win=3, n_bins=8):
     # Hitung Bobot | Memberi bobot lebih besar pada area penting (edge + pola konsisten)
     W = (1 + grad) * konstitusi
     W = W / (np.mean(W) + 1e-8)
-    W = np.clip(W, 0.5, 2.0)
+    # W = np.clip(W, 0.5, 2.0)
 
     # Neighbor sampling
     neighbors = get_graph_neighbors(P, R)
